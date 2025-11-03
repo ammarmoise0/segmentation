@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+Jakala_interview/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.venv/
+
+# Data (optionnel - décommenter si vous ne voulez pas commit les données)
+# Data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs & Models
+outputs/*.csv
+models/*.pkl
+models/*.joblib
+*.h5
+*.model
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Logs
+*.log
+
